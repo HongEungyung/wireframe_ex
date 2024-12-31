@@ -1,0 +1,87 @@
+@charset "utf-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1000px;
+  height: 650px;
+  background-color: aqua;
+}
+section.left {
+  float: left;
+  width: 200px;
+  height: 650px;
+  background-color: aliceblue;
+}
+.logo {
+  width: 200px;
+  height: 100px;
+  background-color: rgb(248, 127, 127);
+}
+.menu {
+  width: 90%;
+  height: 200px;
+  margin: 10px 10px;
+  background-color: rgb(84, 84, 126);
+}
+.menu ul li {
+  width: 100%;
+  height: calc(200px / 4);
+}
+.menu ul li:hover {
+  width: 100%;
+  height: calc(200px / 4);
+  color: #fff;
+  background-color: rgb(36, 36, 70);
+}
+.right-top {
+  float: right;
+  width: 800px;
+  height: 350px;
+  background-color: rgb(196, 255, 88);
+}
+.right-middle {
+  float: right;
+  width: 800px;
+  height: 200px;
+}
+.right-middle div {
+  float: left;
+  width: calc(100% / 3);
+  height: 200px;
+}
+.notice {
+  background-color: rgb(177, 177, 255);
+}
+.gallery {
+  background-color: rgb(156, 178, 189);
+}
+.link {
+  background-color: rgb(166, 252, 252);
+}
+.right-bottom {
+  float: right;
+  width: 800px;
+  height: 100px;
+  background-color: yellow;
+}
+.right-bottom-left{
+    float: left;
+    width: 600px;
+    height: 100%;
+    background-color: rgb(243, 197, 167);
+}
+.sns{
+    float: right;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(246, 151, 255);
+}
+.family-sites{
+    float: right;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(126, 255, 165);
+}
